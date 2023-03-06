@@ -82,9 +82,31 @@ a {
     width: 180px;
     height: 180px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .card p {
     padding-top: 10px;
+}
+
+.sec3 {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    flex-direction: column;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.author {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
 }
